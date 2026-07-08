@@ -35,6 +35,14 @@ video {
   height: auto;      /* Keep the original aspect ratio to avoid distortion */
 }
 
+h2 {
+	color: #585858;
+}
+
+.text-hack {
+	color: #FFFEFA;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -126,7 +134,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		color: #FFFEFA;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -1858,7 +1866,7 @@ input, select, textarea {
 			display: inline-block;
 			text-align: center;
 			line-height: 2.65em;
-			color: inherit;
+			color: #585858;
 		}
 
 			.icon.style2:before {
